@@ -1,86 +1,526 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 
 <head>
+    <title>Mr. Nicks | Young Developer
+    </title>
+
+    <!-- meta -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nilesh Kumar Mahato | web developer</title>
-    <link rel="stylesheet" href="mainStyle.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font_icon/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="assets/font_icon/css/helper.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/cross.css">
+
+    <link rel="stylesheet" href="assets/css/maicons.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <!-- google fonts -->
+    <link
+        href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,500|Lato:300,400,700,900,300italic,400italic,700italic,900italic|Raleway:400,200,300,500,100|Titillium+Web:400,200,300italic,300,200italic'
+        rel='stylesheet' type='text/css'>
+
+    <script src="assets/js/modernizr.js"></script>
 
 </head>
 
-<body>
+<body id="body">
 
-    <!-- Sart header part12 -->
-    <div id="header">
-        <a href="index.html"><img src="Js in 1 web.png" id="logo" alt=""></a>
-        <h1 class="title">
-            <a href="" class="typewrite" data-period="2000"
-                data-type='[ "Hi, Im Nick Js.", "I am Creat This Page for My JS project.", "I work it on all JavaScript.", "Sample Work of JavaScript Journey." ]'>
-                <span class="wrap"></span>
-            </a>
-        </h1>
+
+    <!-- Header area -->
+    <header id="header">
+        <div class="center text-center">
+            <h1 class="bigheadline">Mr. Nicks</h1>
+            <h4 class="subheadline">The Worst Front End Developer</h4>
+        </div>
+        <div class="bottom">
+            <a data-scroll href="#navigation" class="scrollDown animated pulse" id="scrollToContent">
+
+                <audio id="myMusic" src="assets/Wolf Moon - Unicorn Heads.mp3" autoplay loop>
+
+                </audio>
+
+                <i class="pe-7s-angle-down-circle pe-va"></i></a>
+        </div>
+    </header>
+
+    <!-- Navigation area -->
+    <section id="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <div class="logo"><a data-scroll href="#body" class="logo-text">Mr. Nicks</a></div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="nav">
+                        <a href="#" data-placement="bottom" title="Menu" class="menu" data-toggle="dropdown"><i
+                                class="pe-7s-menu"></i></a>
+                        <div class="dropdown-menu">
+                            <div class="arrow-up"></div>
+                            <ul>
+                                <li><a data-scroll href="#body">Home <i class="pe-7s-home"></i></a><span
+                                        class="menu-effect"></span></li>
+                                <li><a data-scroll href="#about">Portfolio <i class="pe-7s-id"></i></a><span
+                                        class="menu-effect"></span></li>
+                                <li><a data-scroll href="#services">Service <i class="pe-7s-config"></i></a><span
+                                        class="menu-effect"></span></li>
+                                <li><a data-scroll href="#portfolio">Projects/Work <i
+                                            class="pe-7s-glasses"></i></a><span class="menu-effect"></span></li>
+                                <li><a data-scroll href="#testimonial">Cetificates <i class="pe-7s-medal"></i><span
+                                            class="menu-effect"></span></a></li>
+                                <li><a data-scroll href="#contact">Contact <i class="pe-7s-help1"></i></a><span
+                                        class="menu-effect"></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Area -->
+
+    <!-- services section -->
+    <div class="vg-page page-about" id="about">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-4 py-3">
+                    <div class="img-place wow fadeInUp">
+                        <img src="assets/Nilesh Kumar Mahato.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1 wow fadeInRight">
+                    <h1 class="fw-light">Nilesh Kumar Mahato</h1>
+                    <h5 class="fg-theme mb-3">Web Developer & Cloud Data</h5>
+                    <p class="text-muted">Strong in design and integration with intuitive problem
+                        solving skills. Proficient in JAVASCRIPT , JAVA , PYTHON, NodeJs, and
+                        MySQL. Passionate about implementing and launching new projects. Ability to translate business
+                        requirements into
+                        technical solutions. Want to achieve the career as an Professinal/Master in Web technology /
+                        Cloud with <br>"No Regrets and Full of Gusto"
+                    </p>
+                    <ul class="theme-list">
+                        <li><b>From:</b> Dhanbad, JH</li>
+                        <li><b>Lives In:</b> Dhanbad, JH</li>
+                        <li><b>Age:</b> 22+</li>
+                        <li><b>Gender:</b> Male</li>
+                    </ul>
+                    <button class="btn btn-theme-outline"><a href=""> Download CV</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5">
+            <h1 class="text-center fw-normal wow fadeIn">My Skills</h1>
+            <div class="row py-3">
+                <div class="col-md-6">
+                    <div class="px-lg-3">
+                        <h4 class="wow fadeInUp">Coding skills</h4>
+                        <div class="progress-wrapper wow fadeInUp">
+                            <span class="caption">JavaScript</span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 86%;" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100">86%</div>
+                            </div>
+                        </div>
+                        <div class="progress-wrapper wow fadeInUp">
+                            <span class="caption">JAVA</span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100">80%</div>
+                            </div>
+                        </div>
+                        <div class="progress-wrapper wow fadeInUp">
+                            <span class="caption">HTML + CSS</span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100">100%</div>
+                            </div>
+                        </div>
+                        <div class="progress-wrapper wow fadeInUp">
+                            <span class="caption">Phyton</span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100">90%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="px-lg-3">
+                        <h4 class="wow fadeInUp">Cloud Data</h4>
+                        <div class="progress-wrapper wow fadeInUp">
+                            <span class="caption">MySQL</span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 92%;" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100">92%</div>
+                            </div>
+                        </div>
+                        <div class="progress-wrapper wow fadeInUp">
+                            <span class="caption">MongoDB</span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 99%;" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100">99%</div>
+                            </div>
+                        </div>
+                        <div class="progress-wrapper wow fadeInUp">
+                            <span class="caption">Big DATA</span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 79%;" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100">79%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-md-6 wow fadeInRight">
+                    <h2 class="fw-normal">Education</h2>
+                    <ul class="timeline mt-4 pr-md-5">
+                        <li>
+                            <div class="title">2021</div>
+                            <div class="details">
+                                <h5><b>BCA</b></h5>
+                                <small class="fg-theme">Utkal University </small>
+                                <p>Regional College
+                                    of Management ,
+                                    Bhubaneswar . From :2018 - 2021</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">2018</div>
+                            <div class="details">
+                                <h5><b>12 <sup>th</sup> Science</b></h5>
+                                <small class="fg-theme">CBSE - Central Board of Secondary Education</small>
+                                <p>D.A.V
+                                    Public School DHANBAD, JHARKHAND .</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">2016</div>
+                            <div class="details">
+                                <h5><b>10 <sup>th</sup> Science</b></h5>
+                                <small class="fg-theme">CBSE - Central Board of Secondary Education</small>
+                                <p>D.A.V
+                                    Public School DHANBAD, JHARKHAND .</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 wow fadeInRight" data-wow-delay="200ms">
+                    <h2 class="fw-normal">Experience/Projects</h2>
+                    <ul class="timeline mt-4 pr-md-5">
+                        <li>
+                            <div class="title">2021 - Current</div>
+                            <div class="details">
+                                <h5><b>Online LMS </b></h5>
+                                <small class="fg-theme">Movinggear Animation</small>
+                                <p>A Online learning platform form animator and 3d game designer </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">2020</div>
+                            <div class="details">
+                                <h5><b>Food
+                                    Recepies</b></h5>
+                                <small class="fg-theme">FoodMania HungerEye</small>
+                                <p>Food
+                                    Recepies and Tricks Website (HTML , CSS,Js ,Etc) onlilne food bloging Website </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="title">2011</div>
+                            <div class="details">
+                                <h5><b>Movie streaming site</b></h5>
+                                <small class="fg-theme">Own work</small>
+                                <p>Online streaming Movie Site like Netflix (HTML ,CSS , JavaScript ,
+                                    (4/03/2020)</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 
 
-    <nav id="menu-bar">
-        <ul>
-            <li><a href="/projects/word counter.html">Word Counter</a></li>
-            <li><a href="/projects/video.html">video gallery</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    <!-- end of  header part -->
 
-    <div id="container">
-        <h1>Sample image Of Project</h1>
+    <section id="services" class="service-area">
+        <div class="container">
+            <h2 class="block_title">Services</h2>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="services">
+                        <div class="service-wrap">
+                            <i class="pe-7s-science pe-dj pe-va"></i>
+                            <h3>Creative Idea</h3>
+                            <p>Have Great Creative Ideas and Good Tech knowledge.</p>
+                        </div>
+                    </div>
 
-        <!-- Flickity HTML init -->
-        <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
-            <div class="gallery-cell"><a href="projects/word counter.html"><img src="Images/Word counter.jpg"
-                        class="about-img" alt="">
-                    <p>WORD COUNTER HTML/CSS/JS</p>
-                </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="services">
+                        <div class="service-wrap">
+                            <i class="pe-7s-monitor pe-dj pe-va"></i>
+                            <h3>Responsive Design</h3>
+                            <p>Use all tech stack for create Responsive and versatile site.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="services">
+                        <div class="service-wrap">
+                            <i class="pe-7s-edit pe-dj pe-va"></i>
+                            <h3>Clean &amp; Nice</h3>
+                            <p>Use only work, leading to productivity and efficiency.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="services">
+                        <div class="service-wrap">
+                            <i class="pe-7s-config pe-dj pe-va"></i>
+                            <h3>Support</h3>
+                            <p> Support for every Work.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- services -->
+
+    <!-- Portfolio Area -->
+
+    <section id="portfolio" class="portfolio-area">
+        <div class="container">
+            <h2 class="block_title">My Works</h2>
+            <div class="row port cs-style-3">
+                <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                    <figure>
+                        <img src="assets/images/poto/264-food-website-template-home-page.jpg" alt="img04">
+                        <figcaption>
+                            <h3>Settings</h3>
+                            <span>by Nicks</span>
+                            <a href="#" class="button">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                    <figure>
+                        <img src="assets/images/poto/Kiddy-1.jpg" alt="img01">
+                        <figcaption>
+                            <h3>by Nicks</h3>
+                            <span>Jacob Cummings</span>
+                            <a href="#" class="button">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                    <figure>
+                        <img src="assets/images/poto/e0414d55412070ec14fe66a17456bdc03af074b08431d6891d6a18582608fe841629730037754.jpg" alt="img02">
+                        <figcaption>
+                            <h3>Music</h3>
+                            <span>by Nicks</span>
+                            <a href="#" class="button">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                
+                <!-- add more -->
+                <div class="col-xs-12">
+                    <div class="btn-center"><a href="#" class="big button">View all</a></div>
+                </div>
+            </div>
+        </div><!-- container -->
+
+        <!-- For JS works -->
+        <div class="container">
+            <h2 class="block_title">JS Sample Work</h2>
+            <div class="row port cs-style-3">
+                <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                    <figure>
+                        <img src="./JS work/Images/VIDEO GALLERY.jpg" alt="img04">
+                        <figcaption>
+                            <h3>Video Gallery</h3>
+                            <span>by Nicks</span>
+                            <a href="./JS work/projects/video.html" class="button">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+                    <figure>
+                        <img src="./JS work/Images/Word counter.jpg" alt="img01">
+                        <figcaption>
+                            <h3>Word counter</h3>
+                            <span>by Nicks</span>
+                            <a href="./JS work/projects/word counter.html" class="button">Take a look</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                
+                <!-- end of js sample -->
+                <!-- add more -->
+                <div class="col-xs-12">
+                    <div class="btn-center"><a href="./JS work/index.html" class="big button">View all</a></div>
+                </div>
             </div>
 
-            <div class="gallery-cell"><a href="projects/video.html"><img src="Images/VIDEO GALLERY.jpg" class="about-img"
-                        alt="">
-                    <p>VIDEO GALLERY HTML/CSS/JS </p>
-                </a>
-            </div>
+            <!-- and of container -->
+        </div><!-- container -->
+    </section><!-- portfolio -->
 
-            <div class="gallery-cell"><a href=""><img src="im.jpg" class="about-img" alt="">
-                    <p>this is first project</p>
-                </a>
-            </div>
+    <!-- Testimonial Area -->
 
-            <div class="gallery-cell"><a href=""><img src="im.jpg" class="about-img" alt="">
-                    <p>this is first project</p>
-                </a>
+    <section id="testimonial" class="testimonial-area">
+        <div class="container">
+            <h2 class="block_title"> Cetificates </h2>
+            <div class="row">
+                <div class="col-xs-12">
+                </div>
+                <div id="testimonial-container" class="col-xs-12">
+                    <div class="testimonila-block">
+                        <img src="assets/images/Cetifi/Web-Development-Foundation.jpg" alt="clients" class="selfshot">
+                        <p>HTML, CSS, and Javascript for Web Developers by Intellipaat through
+                            FutureSkills</p>
+                        <strong>FutureSkills</strong>
+                        <br>
+                        <small>Web Development</small>
+                    </div>
+                    <div class="testimonila-block">
+                        <img src="assets/images/Cetifi/py.jpg" alt="clients" class="selfshot">
+                        <p>Python 101 for Data Science (PY0101EN, provided by IBM Cognitiveclass.</p>
+                        <strong>IBM Cognitiveclass</strong>
+                        <br>
+                        <small>Python</small>
+                    </div>
+                    <div class="testimonila-block">
+                        <img src="assets/images/Cetifi/Nileshkumar-Cybersecurity Es-certificate (1)_page-0001.jpg" alt="clients" class="selfshot">
+                        <p>Cisco Cybersecurity<br>
+                            -
+                            Cisco Networking Academy® Introduction to Cybersecurity course<br>
+                            -
+                            Cisco Networking Academy® Cybersecurity Essentials course</p>
+                        <strong>Hossain Abrar</strong>
+                        <br>
+                        <small>Developer</small>
+                    </div>
+                </div>
             </div>
+        </div><!-- container -->
+    </section><!-- testimonial -->
 
-            <div class="gallery-cell"><a href=""><img src="im.jpg" class="about-img" alt="">
-                    <p>this is first project</p>
-                </a>
+    <!-- Contact Area -->
+
+    <section id="contact" class="mapWrap">
+        <div id="googleMap" style="width:100%;"></div>
+        <!-- <div id="googleMap" style="width:100%;"> <img src="assets/images/Map.png" alt=""></div> -->
+        <div id="contact-area">
+            <div class="container">
+                <h2 class="block_title">Hey !!!</h2>
+                <div class="row">
+                    <div class="col-xs-12">
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="moreDetails">
+                            <h2 class="con-title">More About me</h2>
+                            <p> Hii This is Nilesh Graduate in BCA and like to work in IT/Web technology field .Want to achieve Mastery in JavaScript and have no regrets in life . want to create a new startup  with a great team and complete my Gole . <br>
+                                I Like to Watch Movie,Series and Animes"!Big fan of One Piece" <br>
+                                And Have intereste in Cybersecurity...
+                                                                 
+                            </p>
+                            <ul class="address">
+                                <li><i class="pe-7s-map-marker"></i><span>Dhanbad , Jh,<br>
+                                        828101,<br>India</span></li>
+                                <li><i class="pe-7s-mail"></i><span><a href="mailto:nileshk.mahato1@gmail.com">Nileshk.Mahato@gmail.com</a></span></li>
+                                <li><i class="pe-7s-phone"></i><span><a href="tel:+917717731552">+91 7717731552</a></span></li>
+                                <li><i class="pe-7s-global"></i><span><a href="#">coming soon.. </a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <h2 class="con-title">Drop us a line{currently disabled}</h2>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="user_name" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="your_email" placeholder="Enter your email">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="InputMessage" id="user_message" class="form-control" rows="5"
+                                    required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn medium">Let us know</button>
+                        </form>
+                    </div>
+                </div>
+            </div><!-- container -->
+        </div><!-- contact-area -->
+        <div id="social">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="scoialinks">
+                            <li class="normal-txt">Find me on</li>
+                            <li class="social-icons"><a class="facebook" href="#"></a></li>
+                            <li class="social-icons"><a class="twitter" href="#"></a></li>
+                            <li class="social-icons"><a class="linkedin" href="#"></a></li>
+                            <li class="social-icons"><a class="google-plus" href="#"></a></li>
+                            <li class="social-icons"><a class="wordpress" href="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+        </div><!-- social -->
+    </section><!-- contact -->
 
+    <!-- Footer Area -->
+
+    <footer>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="copyright">© Copyright 2021 <a href="#" target="_blank">Mr. Nicks</a></p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="designed">Theme by <a href="#" target="_blank">Mr. Nicks</a></p>
+                </div>
+            </div>
         </div>
 
-    </div>
+    </footer>
 
-    <div style="padding-top: 50px;">
-        
-        <div align=center><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-2x7AzzxWBc1046a4-13.gif' border='0' alt='web counter free'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=2x7AzzxWBc1046a4'></script></div>
+    <!-- Necessery scripts -->
+    <script src="assets/js/jquery-2.1.3.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="assets/js/jquery.actual.min.js"></script>
+    <script src="assets/js/smooth-scroll.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/script.js"></script>
 
-    </div>
+    <script>
+        $(document).ready(function () {
+            $(".bottom .pe-7s-angle-down-circle").on('click', function () {
+                $("#myMusic")[0].play();
+            });
 
+        });
 
-
-    <script src="mainApp.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+    </script>
 
 </body>
 
